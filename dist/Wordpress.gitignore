@@ -1,0 +1,21 @@
+# ######################################################################################
+# SERVER APPLICATION
+# ######################################################################################
+# --------------------------------------------------------------------------------------
+# WORDPRESS
+# --------------------------------------------------------------------------------------
+# pass "wp-content" only
+/*
+!/wp-content
+
+# pass "plugins" and "themes" only
+/wp-content/*
+!/wp-content/plugins
+!/wp-content/themes
+
+
+# defautl plugin
+/wp-content/plugins/hello.php
+
+# defautl theme
+/wp-content/themes/twenty*/
